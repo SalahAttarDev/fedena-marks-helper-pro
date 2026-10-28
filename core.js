@@ -156,7 +156,8 @@
   function scoreHeader(row, cols) {
     var found = { name: -1, adm: -1, cols: {} }, score = 0;
     for (var c = 0; c < row.length; c++) {
-      var h = norm(row[c]);
+      // ignore "(/10)", "(max 10)" etc. so our own template headings match: "HW (/10)" -> "HW"
+      var h = norm(String(row[c] == null ? '' : row[c]).replace(/\([^)]*\)/g, ''));
       if (!h) continue;
       if (found.adm === -1 && /^(ADM|ADMISSION|ADMNO|ADMISSIONNO|ADMISSIONNUMBER|STUDENTID|ID)$/.test(h)) { found.adm = c; score += 2; continue; }
       if (found.name === -1 && /(STUDENTNAME|^NAME$|^STUDENT$|FULLNAME)/.test(h)) { found.name = c; score += 2; continue; }
