@@ -1,0 +1,66 @@
+{
+  "_note": "invented test data",
+  "batch": "Grade 05 - Green (2026-2027)",
+  "students": [
+    {
+      "name": "AISHA RAHMAN",
+      "admission_no": "S0412",
+      "marks": {
+        "HW": 8,
+        "Oral": 7,
+        "Cw": 9,
+        "Attnd": 10
+      }
+    },
+    {
+      "name": "DANIEL OKAFOR",
+      "admission_no": "S0418",
+      "marks": {
+        "HW": 8,
+        "Oral": 7,
+        "Cw": 9,
+        "Attnd": 10
+      }
+    },
+    {
+      "name": "FARAH IDRIS",
+      "admission_no": "S0425",
+      "marks": {
+        "HW": 8,
+        "Oral": 7,
+        "Cw": 9,
+        "Attnd": 10
+      }
+    },
+    {
+      "name": "HUGO TAN WEI",
+      "admission_no": "S0431",
+      "marks": {
+        "HW": 8,
+        "Oral": 7,
+        "Cw": 9,
+        "Attnd": 10
+      }
+    },
+    {
+      "name": "IMAN ZULKIFLI",
+      "admission_no": "S0433",
+      "marks": {
+        "HW": 8,
+        "Oral": 7,
+        "Cw": 9,
+        "Attnd": 10
+      }
+    },
+    {
+      "name": "MARYAM SALLEH",
+      "admission_no": "S0437",
+      "marks": {
+        "HW": 8,
+        "Oral": 7,
+        "Cw": 9,
+        "Attnd": 10
+      }
+    }
+  ]
+}

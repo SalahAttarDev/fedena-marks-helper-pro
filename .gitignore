@@ -1,0 +1,11 @@
+# Never commit real student data
+*.xlsx
+*.xls
+*.csv
+*.json
+!manifest.json
+!test/*.json
+!test/*.csv
+!test/*.xlsx
+*.xpi
+*.zip
